@@ -1,0 +1,7 @@
+# service status endpoints
+GET     /status                     controllers.StatusController.status
+GET     /metrics                    controllers.StatusController.metrics
+
+# product endpoints
+POST      /product                    controllers.ProductController.addProduct
+GET       /product/:productId         controllers.ProductController.getProductById(productId: Long)

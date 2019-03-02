@@ -1,0 +1,25 @@
+# build and auto generated
+build
+/classes
+target
+/.classpath
+
+# IDE generated
+/.idea
+/.idea_modules
+/.settings
+play-scala-starter-example.iml
+
+# Gradle
+/.gradle
+/gradle
+gradlew
+gradlew.bat
+settings.gradle
+build.gradle
+
+# others
+logs
+/.project
+/RUNNING_PID
+
